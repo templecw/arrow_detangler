@@ -1,0 +1,36 @@
+# Ignore data directories
+hdBPMN/
+FA/
+FC_B/
+saved_models/
+models/saved_models/
+
+# Ignore the old directory
+old/
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+*.egg-info
+
+# Ignore virtual environments
+venv/
+.env/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore build and distribution directories
+build/
+dist/
+*.egg
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.bak
