@@ -103,6 +103,8 @@ dataset_name/
 
 These files were provided by _____ 
 
+**NOTE:** The model created by the program is too large for git, so train will need to be run. The provided datasets will be sufficient for training a model capable of recognition with online notes. 
+
 ### 3. Unified Label Mapping
 ```unified_label_mapping.py``` maps all dataset-specific categories to generalized categories. Adjust this if you introduce new datasets or categories.
 
