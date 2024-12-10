@@ -101,9 +101,9 @@ dataset_name/
     test.json
 ```
 
-These files were provided by _____ 
+These files were provided at [this](https://github.com/bernhardschaefer/handwritten-diagram-datasets) link. 
 
-**NOTE:** The model created by the program is too large for git, so train will need to be run. The provided datasets will be sufficient for training a model capable of recognition with online notes. 
+**NOTE:** The model created by the program is too large for git, so ```train.py``` will need to be run. The two provided datasets should be sufficient for training a model capable of recognition with online notes. 
 
 ### 3. Unified Label Mapping
 ```unified_label_mapping.py``` maps all dataset-specific categories to generalized categories. Adjust this if you introduce new datasets or categories.

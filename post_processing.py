@@ -375,7 +375,7 @@ def visualize_relationships(img_cv, detections, graph, text_only=False):
 
     plt.axis('off')
     plt.tight_layout()
-    plt.savefig('../relationship_detect_2.png')
+    plt.savefig('../relationship_detect_8.png')
     plt.show()
 
 def main():
@@ -404,7 +404,7 @@ def main():
     detections = detect_objects(model, img_tensor, device, conf_threshold=0.7)
 
     # Build relationships
-    graph = build_relationships(img_cv, detections, text_only=False)
+    graph = build_relationships(img_cv, detections, text_only=True)
 
     # Output the graph data
     for edge in graph:
@@ -415,7 +415,7 @@ def main():
         print(f"{source_label} {source_idx} -> {target_label} {target_idx}")
 
     # Visualize relationships
-    visualize_relationships(img_cv, detections, graph, text_only=False)
+    visualize_relationships(img_cv, detections, graph, text_only=True)
 
 
 if __name__ == '__main__':
